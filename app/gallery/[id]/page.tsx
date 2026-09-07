@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { DetailPreview } from "@/components/DetailPreview";
 import { SourceBadge } from "@/components/SourceBadge";
 import { getAllIds, getTemplateById } from "@/lib/templates";
 
@@ -16,7 +17,7 @@ export default async function DetailPage({
   const t = getTemplateById(id);
   if (!t) notFound();
 
-  const isVideo = t.preview.type === "video";
+  const hasMedia = t.preview.type === "video" || t.preview.type === "image";
 
   return (
     <div className="space-y-8">
@@ -27,27 +28,7 @@ export default async function DetailPage({
       <div className="grid gap-8 lg:grid-cols-5">
         <div className="space-y-4 lg:col-span-3">
           <div className="overflow-hidden rounded-2xl border border-white/10 bg-black">
-            {isVideo ? (
-              <video
-                src={t.preview.url}
-                controls
-                playsInline
-                preload="metadata"
-                className="aspect-video w-full bg-black"
-              />
-            ) : (
-              <div className="flex aspect-video flex-col items-center justify-center gap-4 bg-gradient-to-br from-zinc-900 to-[#1a1030] p-8 text-center">
-                <p className="text-sm text-zinc-400">预览位于外部站点 / 源码仓库</p>
-                <a
-                  href={t.preview.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="rounded-xl bg-violet-500 px-4 py-2 text-sm font-medium text-white hover:bg-violet-400"
-                >
-                  打开预览
-                </a>
-              </div>
-            )}
+            <DetailPreview template={t} />
           </div>
           <p className="text-xs leading-relaxed text-zinc-500">{t.attribution}</p>
         </div>
@@ -111,7 +92,7 @@ export default async function DetailPage({
               rel="noreferrer"
               className="text-violet-300 hover:underline"
             >
-              原文 / 文档 →
+              源码 / 文档 →
             </a>
             <a
               href={t.sourceRepo}
@@ -121,6 +102,16 @@ export default async function DetailPage({
             >
               源仓库 →
             </a>
+            {!hasMedia && (t.preview.type === "external" || t.preview.type === "link") && (
+              <a
+                href={t.preview.url}
+                target="_blank"
+                rel="noreferrer"
+                className="text-zinc-400 hover:underline"
+              >
+                外部预览 →
+              </a>
+            )}
           </div>
         </div>
       </div>

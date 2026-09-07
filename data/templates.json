@@ -13,8 +13,8 @@
     ],
     "description": "从设计草稿发送到 HyperFrames 的工作流演示。",
     "preview": {
-      "type": "link",
-      "url": "https://github.com/heygen-com/hyperframes-launches/tree/main/claude-design-send-hyperframes-launch"
+      "type": "video",
+      "url": "https://media.githubusercontent.com/media/heygen-com/hyperframes-launches/main/claude-design-send-hyperframes-launch/assets/hf-logo-outro.mp4"
     },
     "sourceRepo": "https://github.com/heygen-com/hyperframes-launches",
     "sourceUrl": "https://github.com/heygen-com/hyperframes-launches/tree/main/claude-design-send-hyperframes-launch",
@@ -58,8 +58,8 @@
     ],
     "description": "演示在 HeyGen 云端渲染 HyperFrames 项目。",
     "preview": {
-      "type": "external",
-      "url": "https://hyperframes.dev/viewer/4259dc01-157a-4966-9c58-4e97faa2548e"
+      "type": "video",
+      "url": "https://media.githubusercontent.com/media/heygen-com/hyperframes-launches/main/cloud-render-launch/assets/renders/promo.mp4"
     },
     "sourceRepo": "https://github.com/heygen-com/hyperframes-launches",
     "sourceUrl": "https://github.com/heygen-com/hyperframes-launches/tree/main/cloud-render-launch",
@@ -81,8 +81,8 @@
     ],
     "description": "复刻 Codex 五小时限制主题影片。",
     "preview": {
-      "type": "external",
-      "url": "https://github.com/heygen-com/hyperframes-launches/blob/main/codex-five-hour-limit-replica/codex-five-hour-limit-replica.mp4"
+      "type": "video",
+      "url": "https://media.githubusercontent.com/media/heygen-com/hyperframes-launches/main/codex-five-hour-limit-replica/codex-five-hour-limit-replica.mp4"
     },
     "sourceRepo": "https://github.com/heygen-com/hyperframes-launches",
     "sourceUrl": "https://github.com/heygen-com/hyperframes-launches/tree/main/codex-five-hour-limit-replica",
@@ -104,8 +104,8 @@
     ],
     "description": "把 Figma 设计稿带入运动影片。",
     "preview": {
-      "type": "external",
-      "url": "https://hyperframes.dev/viewer/58fdce81-6ef0-4860-899d-d6b3da692a54"
+      "type": "video",
+      "url": "https://media.githubusercontent.com/media/heygen-com/hyperframes-launches/main/figma-launch/assets/motion-output.mp4"
     },
     "sourceRepo": "https://github.com/heygen-com/hyperframes-launches",
     "sourceUrl": "https://github.com/heygen-com/hyperframes-launches/tree/main/figma-launch",
@@ -127,8 +127,8 @@
     ],
     "description": "以 FRAME.md 简报驱动分镜与方向的发布片。",
     "preview": {
-      "type": "external",
-      "url": "https://hyperframes.dev/viewer/c5198458-4eaa-4933-a4e8-029c8010a845"
+      "type": "video",
+      "url": "https://media.githubusercontent.com/media/heygen-com/hyperframes-launches/main/frame-md-launch-storyboard/frame-md-launch-render.mp4"
     },
     "sourceRepo": "https://github.com/heygen-com/hyperframes-launches",
     "sourceUrl": "https://github.com/heygen-com/hyperframes-launches/tree/main/frame-md-launch-storyboard",
@@ -150,8 +150,8 @@
     ],
     "description": "四套可换品牌的发布模板。",
     "preview": {
-      "type": "link",
-      "url": "https://github.com/heygen-com/hyperframes-launches/tree/main/heygen-apple-motion"
+      "type": "video",
+      "url": "https://media.githubusercontent.com/media/heygen-com/hyperframes-launches/main/heygen-apple-motion/hero/assets/clips/c01.mp4"
     },
     "sourceRepo": "https://github.com/heygen-com/hyperframes-launches",
     "sourceUrl": "https://github.com/heygen-com/hyperframes-launches/tree/main/heygen-apple-motion",
@@ -173,8 +173,8 @@
     ],
     "description": "HeyGen 与 Stripe 联合产品发布影片，4K 全 HyperFrames 制作。",
     "preview": {
-      "type": "external",
-      "url": "https://hyperframes.dev/viewer/d6f7d40f-1e32-4b73-a551-af47cc19e8a2"
+      "type": "video",
+      "url": "https://media.githubusercontent.com/media/heygen-com/hyperframes-launches/main/HF-heygen-stripe/assets/end-card.mp4"
     },
     "sourceRepo": "https://github.com/heygen-com/hyperframes-launches",
     "sourceUrl": "https://github.com/heygen-com/hyperframes-launches/tree/main/HF-heygen-stripe",
@@ -195,8 +195,8 @@
     ],
     "description": "HyperFrames 框架自身的发布影片，含完整源码。",
     "preview": {
-      "type": "external",
-      "url": "https://hyperframes.dev/viewer/9ab8d480-7507-4905-9222-ae6ea4b2fb5a"
+      "type": "image",
+      "url": "https://media.githubusercontent.com/media/heygen-com/hyperframes-launches/main/hyperframes-launch/docs/preview.gif"
     },
     "sourceRepo": "https://github.com/heygen-com/hyperframes-launches",
     "sourceUrl": "https://github.com/heygen-com/hyperframes-launches/tree/main/hyperframes-launch",
@@ -218,8 +218,8 @@
     ],
     "description": "在画布上编辑与检查元素的功能演示。",
     "preview": {
-      "type": "external",
-      "url": "https://hyperframes.dev/viewer/87889a4c-cc67-4e4a-b576-b57dd892fee3"
+      "type": "image",
+      "url": "https://media.githubusercontent.com/media/heygen-com/hyperframes-launches/main/inspector-launch/snapshots/frame-00-at-24.8s.png"
     },
     "sourceRepo": "https://github.com/heygen-com/hyperframes-launches",
     "sourceUrl": "https://github.com/heygen-com/hyperframes-launches/tree/main/inspector-launch",
@@ -240,8 +240,8 @@
     ],
     "description": "Kimi K3 短产品宣传片。",
     "preview": {
-      "type": "external",
-      "url": "https://github.com/heygen-com/hyperframes-launches/blob/main/k3-promo/k3-promo.mp4"
+      "type": "video",
+      "url": "https://media.githubusercontent.com/media/heygen-com/hyperframes-launches/main/k3-promo/k3-promo.mp4"
     },
     "sourceRepo": "https://github.com/heygen-com/hyperframes-launches",
     "sourceUrl": "https://github.com/heygen-com/hyperframes-launches/tree/main/k3-promo",
@@ -264,8 +264,8 @@
     ],
     "description": "液体折射风格的品牌运动片。",
     "preview": {
-      "type": "link",
-      "url": "https://github.com/heygen-com/hyperframes-launches/tree/main/liquid-brand-refraction"
+      "type": "video",
+      "url": "https://media.githubusercontent.com/media/heygen-com/hyperframes-launches/main/liquid-brand-refraction/assets/heygen-prism-sting-8s.mp4"
     },
     "sourceRepo": "https://github.com/heygen-com/hyperframes-launches",
     "sourceUrl": "https://github.com/heygen-com/hyperframes-launches/tree/main/liquid-brand-refraction",
@@ -288,8 +288,8 @@
     ],
     "description": "将 GitHub PR 变为功能揭示影片。",
     "preview": {
-      "type": "external",
-      "url": "https://hyperframes.dev/viewer/72c9b502-0c96-4bde-9a78-9a178267c475"
+      "type": "video",
+      "url": "https://media.githubusercontent.com/media/heygen-com/hyperframes-launches/main/pr-to-video-launch/assets/hyperframes-logo-motion.mp4"
     },
     "sourceRepo": "https://github.com/heygen-com/hyperframes-launches",
     "sourceUrl": "https://github.com/heygen-com/hyperframes-launches/tree/main/pr-to-video-launch",
@@ -311,8 +311,8 @@
     ],
     "description": "用 CLI 为影片加入 SFX 与音乐的演示。",
     "preview": {
-      "type": "external",
-      "url": "https://hyperframes.dev/viewer/1adcf040-9df5-46b9-ab56-8e33795b5f84"
+      "type": "video",
+      "url": "https://media.githubusercontent.com/media/heygen-com/hyperframes-launches/main/sfx-music-launch/assets/intro.mp4"
     },
     "sourceRepo": "https://github.com/heygen-com/hyperframes-launches",
     "sourceUrl": "https://github.com/heygen-com/hyperframes-launches/tree/main/sfx-music-launch",
@@ -335,8 +335,8 @@
     ],
     "description": "大规模数据与运动结合的 SpaceX 解说片。",
     "preview": {
-      "type": "external",
-      "url": "https://hyperframes.dev/viewer/58d80c88-37fe-4527-a803-1b29c35373b7"
+      "type": "image",
+      "url": "https://media.githubusercontent.com/media/heygen-com/hyperframes-launches/main/spacex-launch/assets/grok-connectors.png"
     },
     "sourceRepo": "https://github.com/heygen-com/hyperframes-launches",
     "sourceUrl": "https://github.com/heygen-com/hyperframes-launches/tree/main/spacex-launch",
@@ -357,8 +357,8 @@
     ],
     "description": "以纹理与质感为核心的运动设计影片。",
     "preview": {
-      "type": "external",
-      "url": "https://hyperframes.dev/viewer/b92c24b4-5143-4bce-85ce-408be4c3c4ec"
+      "type": "video",
+      "url": "https://media.githubusercontent.com/media/heygen-com/hyperframes-launches/main/texture-launch-video/assets/vfx/shadertoy-frostbyte-dof.mp4"
     },
     "sourceRepo": "https://github.com/heygen-com/hyperframes-launches",
     "sourceUrl": "https://github.com/heygen-com/hyperframes-launches/tree/main/texture-launch-video",
@@ -380,8 +380,8 @@
     ],
     "description": "展示 HyperFrames Studio 时间线编辑能力。",
     "preview": {
-      "type": "external",
-      "url": "https://hyperframes.dev/viewer/105200be-ebda-4209-a225-a2edf01cf1b7"
+      "type": "video",
+      "url": "https://media.githubusercontent.com/media/heygen-com/hyperframes-launches/main/timeline-launch/assets/final-video.mp4"
     },
     "sourceRepo": "https://github.com/heygen-com/hyperframes-launches",
     "sourceUrl": "https://github.com/heygen-com/hyperframes-launches/tree/main/timeline-launch",
@@ -403,8 +403,8 @@
     ],
     "description": "同一构图通过变量生成多版本输出。",
     "preview": {
-      "type": "external",
-      "url": "https://hyperframes.dev/viewer/6387d7c2-3819-4e60-916c-e346a3598b67"
+      "type": "video",
+      "url": "https://media.githubusercontent.com/media/heygen-com/hyperframes-launches/main/variables-launch/assets/hook-a.mp4"
     },
     "sourceRepo": "https://github.com/heygen-com/hyperframes-launches",
     "sourceUrl": "https://github.com/heygen-com/hyperframes-launches/tree/main/variables-launch",
@@ -426,8 +426,8 @@
     ],
     "description": "着色器与视觉特效合集卷轴。",
     "preview": {
-      "type": "external",
-      "url": "https://hyperframes.dev/viewer/3c3669b8-65d0-4f1f-8cdb-e608c1a58ff9"
+      "type": "video",
+      "url": "https://media.githubusercontent.com/media/heygen-com/hyperframes-launches/main/vfx-heygen-combined/assets/bg.mp4"
     },
     "sourceRepo": "https://github.com/heygen-com/hyperframes-launches",
     "sourceUrl": "https://github.com/heygen-com/hyperframes-launches/tree/main/vfx-heygen-combined",
@@ -449,8 +449,8 @@
     ],
     "description": "将线上站点转化为宣传片的演示项目。",
     "preview": {
-      "type": "external",
-      "url": "https://hyperframes.dev/viewer/85d2d8d5-bf5b-4d04-901d-7c3ae157a30a"
+      "type": "video",
+      "url": "https://media.githubusercontent.com/media/heygen-com/hyperframes-launches/main/website-to-hyperframes/compositions/act-3-clips/a3-05-heygen.mp4"
     },
     "sourceRepo": "https://github.com/heygen-com/hyperframes-launches",
     "sourceUrl": "https://github.com/heygen-com/hyperframes-launches/tree/main/website-to-hyperframes",

@@ -6,6 +6,9 @@ import { SourceBadge } from "./SourceBadge";
 
 export function TemplateCard({ template }: { template: Template }) {
   const isVideo = template.preview.type === "video";
+  const isImage = template.preview.type === "image";
+  const hasMedia = isVideo || isImage;
+
   return (
     <Link
       href={`/gallery/${template.id}/`}
@@ -28,12 +31,20 @@ export function TemplateCard({ template }: { template: Template }) {
               e.currentTarget.currentTime = 0;
             }}
           />
+        ) : isImage ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={template.preview.url}
+            alt={template.title}
+            className="h-full w-full object-cover opacity-90 transition group-hover:opacity-100 group-hover:scale-[1.02]"
+            loading="lazy"
+          />
         ) : (
           <div className="flex h-full w-full flex-col items-center justify-center gap-2 bg-gradient-to-br from-zinc-900 via-[#1a1030] to-zinc-950 p-4 text-center">
             <span className="text-3xl opacity-40">▸</span>
             <span className="line-clamp-2 text-xs text-zinc-400">
               {template.preview.type === "link" || template.preview.type === "external"
-                ? "外部预览 / 源码"
+                ? "暂无内嵌样片 · 见源码/文档"
                 : template.titleEn}
             </span>
           </div>
@@ -41,6 +52,11 @@ export function TemplateCard({ template }: { template: Template }) {
         <div className="absolute left-2 top-2">
           <SourceBadge source={template.source} />
         </div>
+        {!hasMedia && (
+          <div className="absolute bottom-2 right-2 rounded-md bg-black/60 px-1.5 py-0.5 text-[10px] text-zinc-300">
+            外部
+          </div>
+        )}
       </div>
       <div className="flex flex-1 flex-col gap-2 p-4">
         <h3 className="line-clamp-1 text-sm font-semibold text-zinc-100 group-hover:text-violet-200">
