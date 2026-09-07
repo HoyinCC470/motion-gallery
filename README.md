@@ -7,6 +7,10 @@ Chinese-first motion template catalog aggregating:
 
 No full git-clone of upstreams. Metadata from GitHub API/raw and public galleries.
 
+## Live URL
+
+https://hoyincc470.github.io/motion-gallery/
+
 ## Run
 
 cd /workspace/motion-gallery
