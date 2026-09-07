@@ -1,9 +1,89 @@
 "use client";
 
 import Link from "next/link";
+import dynamic from "next/dynamic";
+import { useCallback, useEffect, useRef, useState } from "react";
 import type { Template } from "@/lib/types";
 import { SourceBadge } from "./SourceBadge";
-import { RemotionInlinePlayer } from "./RemotionInlinePlayer";
+
+const RemotionInlinePlayer = dynamic(
+  () =>
+    import("./RemotionInlinePlayer").then((m) => m.RemotionInlinePlayer),
+  { ssr: false },
+);
+
+function RemotionPlaceholder({
+  title,
+  hint = "悬停预览",
+}: {
+  title?: string;
+  hint?: string;
+}) {
+  return (
+    <div className="flex h-full w-full flex-col items-center justify-center gap-2 bg-gradient-to-br from-zinc-900 via-[#1a1030] to-cyan-950/40 p-4 text-center">
+      <span className="text-3xl opacity-40">▸</span>
+      {title ? (
+        <span className="line-clamp-2 text-xs text-zinc-400">{title}</span>
+      ) : null}
+      <span className="rounded-md bg-white/5 px-2 py-0.5 text-[10px] text-zinc-400">
+        {hint}
+      </span>
+    </div>
+  );
+}
+
+/** Gallery-only: placeholder by default; mount at most one playing player on hover/focus. */
+function RemotionCardPreview({ id, title }: { id: string; title: string }) {
+  const rootRef = useRef<HTMLDivElement>(null);
+  const [playing, setPlaying] = useState(false);
+
+  // Warm JS chunks when the card nears the viewport — still only play on hover.
+  useEffect(() => {
+    const el = rootRef.current;
+    if (!el) return;
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (!entries.some((e) => e.isIntersecting)) return;
+        void import("./RemotionInlinePlayer");
+        void import("./remocn-registry").then((m) => {
+          const meta = m.REMOCN_DEMOS[id];
+          if (meta) void meta.load();
+        });
+        io.disconnect();
+      },
+      { rootMargin: "120px" },
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, [id]);
+
+  const activate = useCallback(() => setPlaying(true), []);
+  const deactivate = useCallback(() => setPlaying(false), []);
+
+  return (
+    <div
+      ref={rootRef}
+      className="relative h-full w-full"
+      onMouseEnter={activate}
+      onMouseLeave={deactivate}
+      onFocus={activate}
+      onBlur={deactivate}
+    >
+      {playing ? (
+        <div className="pointer-events-none h-full w-full [&_button]:hidden">
+          <RemotionInlinePlayer
+            id={id}
+            autoPlay
+            loop
+            controls={false}
+          />
+        </div>
+      ) : (
+        <RemotionPlaceholder title={title} />
+      )}
+    </div>
+  );
+}
 
 export function TemplateCard({ template }: { template: Template }) {
   const isVideo = template.preview.type === "video";
@@ -23,7 +103,7 @@ export function TemplateCard({ template }: { template: Template }) {
             muted
             loop
             playsInline
-            preload="metadata"
+            preload="none"
             className="h-full w-full object-cover opacity-90 transition group-hover:opacity-100"
             onMouseEnter={(e) => {
               void e.currentTarget.play().catch(() => {});
@@ -42,14 +122,13 @@ export function TemplateCard({ template }: { template: Template }) {
             loading="lazy"
           />
         ) : isRemotion ? (
-          <div className="pointer-events-none h-full w-full [&_button]:hidden">
-            <RemotionInlinePlayer id={template.id} autoPlay loop />
-          </div>
+          <RemotionCardPreview id={template.id} title={template.title} />
         ) : (
           <div className="flex h-full w-full flex-col items-center justify-center gap-2 bg-gradient-to-br from-zinc-900 via-[#1a1030] to-zinc-950 p-4 text-center">
             <span className="text-3xl opacity-40">▸</span>
             <span className="line-clamp-2 text-xs text-zinc-400">
-              {template.preview.type === "link" || template.preview.type === "external"
+              {template.preview.type === "link" ||
+              template.preview.type === "external"
                 ? "暂无内嵌样片 · 见源码/文档"
                 : template.titleEn}
             </span>
