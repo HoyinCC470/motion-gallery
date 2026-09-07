@@ -154,7 +154,7 @@ for (const c of selected) {
     categories: remocnCategories(name, title, desc),
     tags: [name, 'remotion', 'shadcn-registry'],
     description: desc,
-    preview: { type: 'link', url: `https://remocn.dev/docs/components/${name}` },
+    preview: { type: ['fade-through','blur-out-up','bottom-up-letters'].includes(name) ? 'remotion' : 'link', url: `https://remocn.dev/docs/components/${name}` },
     sourceRepo: 'https://github.com/Remocn/remocn',
     sourceUrl: `https://remocn.dev/docs/components/${name}`,
     usage: `npx shadcn@latest add @remocn/${name}`,

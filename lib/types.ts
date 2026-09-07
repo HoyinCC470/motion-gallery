@@ -1,6 +1,6 @@
 export type SourceId = "hyperframes" | "shotcraft" | "remocn";
 
-export type PreviewType = "video" | "image" | "external" | "link";
+export type PreviewType = "video" | "image" | "external" | "link" | "remotion";
 
 export interface Template {
   id: string;

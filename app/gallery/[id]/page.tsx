@@ -17,7 +17,7 @@ export default async function DetailPage({
   const t = getTemplateById(id);
   if (!t) notFound();
 
-  const hasMedia = t.preview.type === "video" || t.preview.type === "image";
+  const hasMedia = t.preview.type === "video" || t.preview.type === "image" || t.preview.type === "remotion";
 
   return (
     <div className="space-y-8">

@@ -30,12 +30,12 @@ npm run build
 | --- | ---:- | ---:- | ---:- | --- |
 | hyperframes | 16 | 3 | 1 | LFS via media.githubusercontent.com; claude-paper-launch has no committed preview media |
 | shotcraft | 157 | 0 | 0 | Public gallery MP4s |
-| remocn | 0 | 0 | 60 | Docs-only live Remotion Player; no hosted MP4/GIF. Phase B: embed @remotion/player demos |
-| total | 173 | 3 | 61 |  |
+| remocn | 0 | 0 | 57 (+3 remotion) | 3 in-page @remotion/player demos; 57 still docs-only (no hosted MP4) |
+| total | 173 | 3 | 58 (+3 remotion inline) |  |
 
 ## Remaining work (Phase B)
 
-- Remocn: add remotion + @remotion/player, copy a few representative registry components, mount in-page Players.
+- Remocn: started — 3 demos (fade-through, blur-out-up, bottom-up-letters) via @remotion/player; expand coverage for remaining 57.
 - HyperFrames claude-paper-launch: still external until upstream publishes a render/snapshot.
 - Some HyperFrames cards use representative asset clips / snapshots / GIF when the finished master is only on hyperframes.dev/viewer.
 

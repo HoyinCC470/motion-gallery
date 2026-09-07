@@ -3,11 +3,13 @@
 import Link from "next/link";
 import type { Template } from "@/lib/types";
 import { SourceBadge } from "./SourceBadge";
+import { RemotionInlinePlayer } from "./RemotionInlinePlayer";
 
 export function TemplateCard({ template }: { template: Template }) {
   const isVideo = template.preview.type === "video";
   const isImage = template.preview.type === "image";
-  const hasMedia = isVideo || isImage;
+  const isRemotion = template.preview.type === "remotion";
+  const hasMedia = isVideo || isImage || isRemotion;
 
   return (
     <Link
@@ -39,6 +41,10 @@ export function TemplateCard({ template }: { template: Template }) {
             className="h-full w-full object-cover opacity-90 transition group-hover:opacity-100 group-hover:scale-[1.02]"
             loading="lazy"
           />
+        ) : isRemotion ? (
+          <div className="pointer-events-none h-full w-full [&_button]:hidden">
+            <RemotionInlinePlayer id={template.id} autoPlay loop />
+          </div>
         ) : (
           <div className="flex h-full w-full flex-col items-center justify-center gap-2 bg-gradient-to-br from-zinc-900 via-[#1a1030] to-zinc-950 p-4 text-center">
             <span className="text-3xl opacity-40">▸</span>
@@ -55,6 +61,11 @@ export function TemplateCard({ template }: { template: Template }) {
         {!hasMedia && (
           <div className="absolute bottom-2 right-2 rounded-md bg-black/60 px-1.5 py-0.5 text-[10px] text-zinc-300">
             外部
+          </div>
+        )}
+        {isRemotion && (
+          <div className="absolute bottom-2 right-2 rounded-md bg-cyan-500/20 px-1.5 py-0.5 text-[10px] text-cyan-200">
+            Remotion
           </div>
         )}
       </div>

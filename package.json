@@ -19,9 +19,11 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "@remotion/player": "^4.0.521",
     "next": "^15.5.25",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.2.8",
+    "remotion": "^4.0.521"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.3",

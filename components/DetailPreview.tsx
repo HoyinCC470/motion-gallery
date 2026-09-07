@@ -1,9 +1,18 @@
 "use client";
 
 import type { Template } from "@/lib/types";
+import { RemotionInlinePlayer } from "@/components/RemotionInlinePlayer";
 
 export function DetailPreview({ template }: { template: Template }) {
   const { type, url } = template.preview;
+
+  if (type === "remotion") {
+    return (
+      <div className="aspect-video w-full overflow-hidden bg-black">
+        <RemotionInlinePlayer id={template.id} />
+      </div>
+    );
+  }
 
   if (type === "video") {
     return (

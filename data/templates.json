@@ -4041,7 +4041,7 @@
     ],
     "description": "Words arrive clean and depart upward with increasing blur for airy exits.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/blur-out-up"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4064,7 +4064,7 @@
     ],
     "description": "Letters rise from below in a pronounced staircase, one symbol at a time, with zero blur.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/bottom-up-letters"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4185,7 +4185,7 @@
     ],
     "description": "A Material-style content transition: old fades out, new fades in with a soft delay.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/fade-through"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
