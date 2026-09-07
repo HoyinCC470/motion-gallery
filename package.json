@@ -1,0 +1,35 @@
+{
+  "name": "motion-gallery",
+  "version": "1.0.0",
+  "private": true,
+  "description": "中文优先的动效模板 Gallery —— 聚合 HyperFrames / video-shotcraft / Remocn",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "data:build": "node --input-type=module < scripts/build_templates.mjs"
+  },
+  "keywords": [
+    "motion",
+    "gallery",
+    "remotion",
+    "hyperframes",
+    "shotcraft"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "next": "^15.5.25",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.4.1",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.8.3"
+  }
+}
