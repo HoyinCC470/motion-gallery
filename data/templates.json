@@ -4088,7 +4088,7 @@
     ],
     "description": "A gradient caret swells into a block that consumes the first phrase right-to-left, collapses back and types the second phrase out with a blinking caret.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/caret-swap"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4113,7 +4113,7 @@
     ],
     "description": "Words appear sharply from below while the centered phrase pushes cumulatively closer on every beat, then clears through a soft left-to-right opacity wipe.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/centered-word-build"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4137,7 +4137,7 @@
     ],
     "description": "A dithering shader transition that dissolves one scene into the next.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/dither-dissolve"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4161,7 +4161,7 @@
     ],
     "description": "A flat word pops up out of the plane on a solid colored 3D body, no camera involved.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/extrude-pop"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4209,7 +4209,7 @@
     ],
     "description": "A premium focus pull from heavy blur to crisp text, then a soft blur-out exit.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/focus-blur-resolve"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4233,7 +4233,7 @@
     ],
     "description": "Display text resolves out of fog: characters sharpen from heavy blur center-out with vertical streaks dissolving above them, as if rising along the z-axis.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/fog-rise"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4258,7 +4258,7 @@
     ],
     "description": "Bars fly in Tetris-style, land as a row, and melt into a word through a gooey blur-and-threshold morph.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/gooey-morph"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4283,7 +4283,7 @@
     ],
     "description": "An oversized gradient reveal snaps to a separate compact blurred line that settles left while the reveal continues.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/gradient-scale-cut-text"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4307,7 +4307,7 @@
     ],
     "description": "A grain-gradient shader transition that disintegrates the outgoing scene into soft grainy shapes and condenses the next scene out of the noise.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/grain-dissolve"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4330,7 +4330,7 @@
     ],
     "description": "Seamlessly looping horizontal text strip with optional stroke style.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/infinite-marquee"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4354,7 +4354,7 @@
     ],
     "description": "Animates one word inside a sentence from a base color to a brand color.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/inline-highlight"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4379,7 +4379,7 @@
     ],
     "description": "A clipped pill expands inside a sentence, physically pushes the surrounding words apart, removes them through blur and takes over the frame with a fast camera punch-in.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/inline-pill-takeover"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4404,7 +4404,7 @@
     ],
     "description": "A word appears in the center; each new word enters from the right and pushes the line until the full phrase locks centered.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/kinetic-center-build"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4428,7 +4428,7 @@
     ],
     "description": "A coarse mesh warp bends a whole word in staccato beats, one axis per keyframe.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/kinetic-warp"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4453,7 +4453,7 @@
     ],
     "description": "A hard cut disguised as a lens punch-in: barrel distortion, zoom blur, chromatic split and camera shake around the splice.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/lens-zoom"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4477,7 +4477,7 @@
     ],
     "description": "Each line enters from the left with a staggered slide and exits to the right for a flowing paragraph reveal.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/line-by-line-slide"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4500,7 +4500,7 @@
     ],
     "description": "Colored marker block draws behind a phrase as the text color shifts.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/marker-highlight"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4523,7 +4523,7 @@
     ],
     "description": "Lines reveal upward with a soft masked feel and compact stagger.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/mask-reveal-up"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4546,7 +4546,7 @@
     ],
     "description": "Random scramble resolves left-to-right into the target text.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/matrix-decode"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4569,7 +4569,7 @@
     ],
     "description": "A calm, tiny scale pop used as subtle premium polish for labels and headings.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/micro-scale-fade"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4593,7 +4593,7 @@
     ],
     "description": "A rising lead word gives way to an outlined value that fills from left to right while both travel on one continuous track.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/outline-fill-track-text"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4616,7 +4616,7 @@
     ],
     "description": "Letters slide up from below with no blur — crisp, deliberate, kinetic.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/per-character-rise"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4639,7 +4639,7 @@
     ],
     "description": "Words gently fade into place one after another, with a short vertical drift for a calm keynote rhythm.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/per-word-crossfade"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4663,7 +4663,7 @@
     ],
     "description": "A perlin-noise shader transition that sweeps its noise threshold to dissolve one scene into the next.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/perlin-dissolve"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4687,7 +4687,7 @@
     ],
     "description": "Three RGB-offset text copies jitter for a brief glitch window.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/rgb-glitch-text"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4712,7 +4712,7 @@
     ],
     "description": "A grain-gradient ripple transition that flies the camera through the center of the rings while the next scene approaches from the depth.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/ripple-zoom"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4735,7 +4735,7 @@
     ],
     "description": "A resting white word blasts through vertical scale motion, separating into energy-conserving RGB shutter trails before the next word resolves.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/rush-type"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4758,7 +4758,7 @@
     ],
     "description": "Subtle premium settle-in with a restrained scale-down fade on exit.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/scale-down-fade"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4782,7 +4782,7 @@
     ],
     "description": "Grainy multi-stop gradient that drifts slowly with film-grain texture over the blend.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/shader-grain-gradient"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4805,7 +4805,7 @@
     ],
     "description": "WebGL mesh gradient backdrop driven per-frame for deterministic Remotion renders.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/shader-mesh-gradient"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4828,7 +4828,7 @@
     ],
     "description": "Concentric bands swirling around a center point.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/shader-swirl"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4851,7 +4851,7 @@
     ],
     "description": "Domain-warped color field that folds and stretches like liquid.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/shader-warp"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4875,7 +4875,7 @@
     ],
     "description": "A line rises up and left while one dense dark shadow uncovers it and a second shadow sweeps back across it for the exit.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/shadow-sweep-text"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4899,7 +4899,7 @@
     ],
     "description": "Per-word hard-cut transition with staircase timing for sharp editorial swaps.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/shared-axis-y"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4924,7 +4924,7 @@
     ],
     "description": "Scale-based shared-axis transition for focus shifts and context depth.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/shared-axis-z"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4948,7 +4948,7 @@
     ],
     "description": "A title glides in from the right with an exponential settle and a slow final creep to center, while a gradient sheen sweeps once through the glyphs.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/sheen-slide-in"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4972,7 +4972,7 @@
     ],
     "description": "Light shine sweeps across muted text via background-clip:text.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/shimmer-sweep"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -4996,7 +4996,7 @@
     ],
     "description": "Each new word drops in from above into its own line and pushes the stack downward until a centered three-line composition locks in place.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/short-slide-down"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -5019,7 +5019,7 @@
     ],
     "description": "The whole phrase glides in from the left as one compact move while words reveal in sequence through opacity.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/short-slide-right"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -5042,7 +5042,7 @@
     ],
     "description": "Animated mouse cursor moving between waypoints with click ripple feedback.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/simulated-cursor"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -5065,7 +5065,7 @@
     ],
     "description": "Vertical reel scrolls characters from one value to another.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/slot-machine-roll"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -5089,7 +5089,7 @@
     ],
     "description": "A smoke-ring shader transition that expands the ring outward to reveal the next scene.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/smoke-dissolve"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -5112,7 +5112,7 @@
     ],
     "description": "Per-character fade-in with a gentle blur and upward motion. Apple's signature hero-title reveal.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/soft-blur-in"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -5135,7 +5135,7 @@
     ],
     "description": "Words pop in with a soft overshoot scale, like a physical spring settling into place.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/spring-scale-in"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -5158,7 +5158,7 @@
     ],
     "description": "Characters appear one by one on a tight stagger; when the last one lands, every letter gap compresses as one and the word squeezes together.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/squeeze-in"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -5181,7 +5181,7 @@
     ],
     "description": "Words fade in and slide up one after another with a configurable delay.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/staggered-fade-up"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -5204,7 +5204,7 @@
     ],
     "description": "Letters fly in from off-canvas and smear horizontally on the way — a vertex-lag deformation, not a scale.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/stretch-in"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -5228,7 +5228,7 @@
     ],
     "description": "Draws a strike line across old text then reveals new text in its place.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/strikethrough-replace"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -5251,7 +5251,7 @@
     ],
     "description": "A swirl shader transition that unwinds open and winds shut to reveal the next scene.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/swirl-dissolve"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -5274,7 +5274,7 @@
     ],
     "description": "Letters descend from above in a pronounced staircase, one symbol at a time, with zero blur.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/top-down-letters"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -5297,7 +5297,7 @@
     ],
     "description": "Letter-spacing collapses and blur clears with a springy motion.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/tracking-in"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -5322,7 +5322,7 @@
     ],
     "description": "A centered cursorless type build holds, then exits through opposing fixed-layout glyph wipes that leave the anchor visible longest.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/typed-split-wipe"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -5346,7 +5346,7 @@
     ],
     "description": "Character-by-character text reveal with a deterministic blinking cursor.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/typewriter"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -5370,7 +5370,7 @@
     ],
     "description": "A grain-gradient wave that sweeps up across the frame, covering the outgoing scene and revealing the next one from below.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/wave-wipe"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -5395,7 +5395,7 @@
     ],
     "description": "A phrase builds from its first word centered: each next word drives in from the right and pushes the line left, easing into the new center.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/word-push"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -5420,7 +5420,7 @@
     ],
     "description": "Voiceover-paced phrases that build word by word — the next word looms as a blurred ghost before it resolves, then the phrase cuts away.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/word-stream"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",
@@ -5445,7 +5445,7 @@
     ],
     "description": "A close-up word reveal: huge words fade into a long line while the camera rides the write head, the line streaming off-frame as the shot eases into focus.",
     "preview": {
-      "type": "link",
+      "type": "remotion",
       "url": "https://remocn.dev/docs/components/zoom-words"
     },
     "sourceRepo": "https://github.com/Remocn/remocn",

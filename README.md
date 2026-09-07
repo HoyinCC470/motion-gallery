@@ -3,7 +3,7 @@
 Chinese-first motion template catalog aggregating:
 - hyperframes (HeyGen launches) — embeds upstream LFS preview MP4/GIF/PNG via media.githubusercontent.com
 - shotcraft (video-shotcraft recipe cards) — embeds public gallery MP4s
-- remocn (Remotion component registry) — docs links for now (no hosted MP4s)
+- remocn (Remotion component registry) — in-page @remotion/player demos (vendored MIT sources)
 
 No full git-clone of upstreams. Metadata from GitHub API/raw and public galleries. Preview media is embedded when a playable URL exists; we are not re-implementing every effect from scratch.
 
@@ -30,12 +30,12 @@ npm run build
 | --- | ---:- | ---:- | ---:- | --- |
 | hyperframes | 16 | 3 | 1 | LFS via media.githubusercontent.com; claude-paper-launch has no committed preview media |
 | shotcraft | 157 | 0 | 0 | Public gallery MP4s |
-| remocn | 0 | 0 | 57 (+3 remotion) | 3 in-page @remotion/player demos; 57 still docs-only (no hosted MP4) |
-| total | 173 | 3 | 58 (+3 remotion inline) |  |
+| remocn | 0 | 0 | 0 | 60 in-page Remotion players (vendored from Remocn/remocn MIT) |
+| total | 173 | 3 | 1 (+60 remotion inline) |  |
 
 ## Remaining work (Phase B)
 
-- Remocn: started — 3 demos (fade-through, blur-out-up, bottom-up-letters) via @remotion/player; expand coverage for remaining 57.
+- Remocn: all 60 catalog entries use in-page @remotion/player (see `components/remocn/`, `NOTICE-REMOCN.md`).
 - HyperFrames claude-paper-launch: still external until upstream publishes a render/snapshot.
 - Some HyperFrames cards use representative asset clips / snapshots / GIF when the finished master is only on hyperframes.dev/viewer.
 

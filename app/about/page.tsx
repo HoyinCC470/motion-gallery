@@ -62,11 +62,14 @@ export default function AboutPage() {
           <a href="https://remocn.dev" target="_blank" rel="noreferrer">
             remocn.dev
           </a>
-          。组件为 MIT，可通过{" "}
+          。组件为 MIT。本站已将目录中的 Remocn 组件源码 vendored 到{" "}
+          <code className="rounded bg-black/50 px-1 text-violet-200">components/remocn/</code>
+          ，并在卡片/详情页用 @remotion/player 内嵌预览；文档与{" "}
           <code className="rounded bg-black/50 px-1 text-violet-200">
             npx shadcn@latest add @remocn/&lt;name&gt;
           </code>{" "}
-          安装。
+          仍可作为二级入口。详见{" "}
+          <code className="rounded bg-black/50 px-1 text-violet-200">NOTICE-REMOCN.md</code>。
         </p>
         <p className="text-sm text-amber-200/90">
           <strong>Remotion 许可提示：</strong> Remocn 组件基于{" "}
